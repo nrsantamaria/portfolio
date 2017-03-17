@@ -14,6 +14,16 @@ body {
   color: #558bb0;
   text-align: center;
 }
+
+.green {
+    color: #528A7E;
+}
+
+.Handlee {
+  font-family: 'Handlee', cursive;
+  font-size: 14px;
+  color: #8a5263;
+}
 /*....About Me Section....*/
 
 #photo {
@@ -32,25 +42,34 @@ body {
 #aboutme {
   font-size: 18px;
   padding: 10px;
-  font-family: 'Gochi Hand', cursive;
+  font-family: 'Handlee', cursive;
 }
 
-.gochi {
-  font-family: 'Gochi Hand', cursive;
-  font-size: 14px;
-  color: #8a5263;
+#favs {
+  border: dotted 2px;
 }
 
 .columns h4 {
   text-align: center;
 }
 
-.green {
-    color: #528A7E;
+/*....Projects Section.....*/
+
+#sign {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
 }
-#favs {
-  border: dotted 2px;
+
+.panel li a {
+  font-family: 'Handlee', cursive;
+  color: #8a5263;
+  text-decoration: underline;
+  font-size: 18px;
 }
+
+/*....Work Experience Section....*/
 
 .confhead {
   text-align: center;
@@ -61,13 +80,7 @@ body {
   height: 150px;
   padding: 10%;
 }
+
 .col-md-3 {
   text-align: center;
-}
-
-#sign {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
 }

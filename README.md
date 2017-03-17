@@ -30,7 +30,7 @@ _Please contact Nicole Santamaria at NicoleRSantamaria@gmail.com if you have any
 
 ## Technologies Used
 
-_In addition to bootstrap CSS there is a link in the HTML referencing GoogleFonts and this has been added to the Styles.css stylesheet._
+_In addition to bootstrap CSS there is a link in the HTML referencing GoogleFonts and this has been added to the Styles.css stylesheet. The nav tabs at the top link to the different sections on the page._
 
 ### License
 

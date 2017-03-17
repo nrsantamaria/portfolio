@@ -13,9 +13,7 @@ body {
   float: right;
   height: 200px;
   margin: 5px;
-  border: 5px;
-  border-style: solid;
-  border-width: medium;
+  border: dotted 2px;
 }
 
 .columns {

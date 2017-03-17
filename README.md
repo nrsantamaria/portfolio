@@ -12,11 +12,11 @@ _This webpage is a portfolio for Nicole Santamaria. In includes some basic infor
 ## Setup/Installation Requirements
 
 * _Ensure connection to the Internet_
-* _Enter the following URL to access the active git hub link to this page: xxx_
+* _Enter the following URL to access the active git hub link to this page: https://nrsantamaria.github.io/portfolio/_
 * _OR_
 * _Open terminal_
 * _Run cd desktop_
-* _Run "git clone xxx_
+* _Run "git clone https://github.com/nrsantamaria/portfolio.git_
 * _Open portfolio folder located on your desktop_
 * _Open index.html file_
 

@@ -1,6 +1,4 @@
 body {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
   background-color: #75C0D6;
 }
 
@@ -23,6 +21,10 @@ body {
   font-family: 'Handlee', cursive;
   font-size: 14px;
   color: #8a5263;
+}
+
+strong {
+  color: #528A7E;
 }
 /*....About Me Section....*/
 

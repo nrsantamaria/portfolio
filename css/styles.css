@@ -1,11 +1,15 @@
+.well {
+  border: 0px;
+}
+
+/*....About Me Section....*/
+
 #photo {
   float: right;
   height: 200px;
   margin: 5px;
 }
-.well {
-  height: auto;
-}
+
 .columns {
   width: 300px;
   float: left;

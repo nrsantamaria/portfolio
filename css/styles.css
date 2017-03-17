@@ -45,6 +45,8 @@ strong {
   font-size: 18px;
   padding: 10px;
   font-family: 'Handlee', cursive;
+  color: #8a5263;
+  font-style: italic;
 }
 
 #favs {
@@ -67,7 +69,7 @@ strong {
 .panel li a {
   color: #8a5263;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*....Work Experience Section....*/

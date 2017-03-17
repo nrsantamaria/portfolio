@@ -42,3 +42,13 @@ body {
 #favs {
   border: dotted 2px;
 }
+
+.confhead {
+  text-align: center;
+  font-style: italic;
+}
+
+.logo {
+  height: 150px;
+  padding: 10%;
+}

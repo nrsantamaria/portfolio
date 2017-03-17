@@ -3,8 +3,16 @@
   height: 200px;
   margin: 5px;
 }
-
+.well {
+  height: auto;
+}
 .columns {
   width: 300px;
   float: left;
+  padding: 10px;
+}
+
+#aboutme {
+  font-size: 16px;
+  padding: 10px;
 }

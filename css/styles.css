@@ -88,3 +88,11 @@ strong {
 .col-md-3 {
   text-align: center;
 }
+
+/*.....Education Section......*/
+
+.school {
+  float: left;
+  height: 100px;
+  padding: 10px;
+}

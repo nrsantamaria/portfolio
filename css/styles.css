@@ -1,3 +1,8 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
 .well {
   border: 0px;
 }
@@ -20,6 +25,22 @@
 }
 
 #aboutme {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.gochi {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 14px;
+  color: #8a5263;
+}
+
+.columns h4 {
+  color: #6d8d86;
+  text-align: center;
+}
+
+#favs {
+  border: dotted 2px;
 }

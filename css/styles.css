@@ -1,12 +1,17 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  background-color: #75C0D6;
 }
 
 .well {
   border: 0px;
+  background-color: #d4cdb8;
 }
 
+.jumbotron {
+  background-color: #d4cdb8;
+}
 /*....About Me Section....*/
 
 #photo {
@@ -35,10 +40,12 @@ body {
 }
 
 .columns h4 {
-  color: #6d8d86;
   text-align: center;
 }
 
+.green {
+    color: #528A7E;
+}
 #favs {
   border: dotted 2px;
 }

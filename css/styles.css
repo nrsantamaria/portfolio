@@ -55,7 +55,7 @@ strong {
 }
 
 /*....About Me Section....*/
-.aboutme-section {
+#AboutMe {
   padding-top: 2%;
 }
 .social-media img {
@@ -63,7 +63,7 @@ strong {
   padding: 1%;
 }
 .social-media {
-  width: 25%;
+  width: 20%;
   margin: 0 auto;
 }
 

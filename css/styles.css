@@ -1,8 +1,15 @@
-body {
+body, a {
   font-family: 'Montserrat', sans-serif;
   color: #4C4231;
 }
 
+h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+.container {
+  padding-top: 2%;
+}
 .row {
   padding: inherit;
 }
@@ -21,7 +28,7 @@ body {
 
 .jumbotron {
   background: transparent;
-  margin-top:10%;
+  margin-top:5%;
 }
 
 .btn-info {
@@ -128,5 +135,12 @@ strong {
 }
 
 #Skills img {
-  height: 150px;
+  width: 160px;
+  padding: 2%;
+}
+
+
+#Skills .row {
+  width: 90%;
+  margin: 0 auto;
 }

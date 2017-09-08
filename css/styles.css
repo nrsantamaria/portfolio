@@ -1,21 +1,48 @@
 body {
-  background-color: #75C0D6;
+  font-family: 'Montserrat', sans-serif;
+  color: #4C4231;
+}
+.row {
+  width:inherit;
+}
+.header {
+  background: url("../img/hawaii.jpg") no-repeat center center;
+  background-position: top;
+  background-size: 100%;
+  text-align: center;
+  height: 600px;
 }
 
-.well {
-  border: 0px;
-  background-color: #d4cdb8;
+.nav-link:hover {
+  border: solid #E0CEBC 2px;
 }
 
 .jumbotron {
-  background-image: url("../img/hawaii.jpg");
-  background-position: center;
-  background-size: 100%;
-  text-align: center;
+  background: transparent;
+  margin-top:10%;
+}
+
+.btn-info {
+  background: transparent;
+  border: transparent;
+}
+
+.btn-info:hover {
+  border: solid #E0CEBC 2px;
+  background: transparent;
+}
+
+.btn-info a {
+  color: #4C4231;
+}
+
+.btn-info a:hover {
+  color: #7D6252;
+  text-decoration: none;
 }
 
 .green {
-    color: #528A7E;
+  color: #528A7E;
 }
 
 .Handlee {

@@ -2,9 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #4C4231;
 }
-.row {
-  width:inherit;
-}
+
 .header {
   background: url("../img/hawaii.jpg") no-repeat center center;
   background-position: top;
@@ -57,72 +55,25 @@ strong {
 }
 
 /*....About Me Section....*/
-
-#photo {
-  float: right;
-  height: 200px;
-  margin: 5px;
-  border: dotted 2px;
+.aboutme-section {
+  padding-top: 2%;
+}
+.social-media img {
+  height: 60px;
+  padding: 1%;
+}
+.social-media {
+  width: 25%;
+  margin: 0 auto;
 }
 
-.columns {
-  width: 300px;
-  float: left;
-  padding: 10px;
-}
-
-#aboutme {
-  font-size: 18px;
-  padding: 10px;
-  font-family: 'Handlee', cursive;
-  color: #8a5263;
-  font-style: italic;
-}
-
-#favs {
-  border: dotted 2px;
-}
-
-.columns h4 {
-  text-align: center;
-}
-
-/*....Projects Section.....*/
-
-#sign {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
-}
-
-.panel li a {
-  color: #8a5263;
-  text-decoration: underline;
-  font-size: 16px;
-}
-
-/*....Work Experience Section....*/
-
-.confhead {
-  text-align: center;
-  font-style: italic;
-  color: gray;
-}
-
-.logo {
+.my-photos img {
   height: 150px;
-  padding: 10%;
+  border-radius: 50%;
+  padding: 1%;
 }
 
-.col-md-3 {
-  text-align: center;
-}
-
-/*.....Education Section......*/
-
-.school {
-  float: left;
-  height: 100px;
-  padding: 10px;
+.my-photos {
+  width: 55%;
+  margin: 0 auto;
 }

@@ -3,6 +3,10 @@ body {
   color: #4C4231;
 }
 
+.row {
+  padding: inherit;
+}
+
 .header {
   background: url("../img/hawaii.jpg") no-repeat center center;
   background-position: top;
@@ -69,11 +73,56 @@ strong {
 
 .my-photos img {
   height: 150px;
+  border: solid #E0CEBC 5px;
   border-radius: 50%;
-  padding: 1%;
+  margin: 1%;
 }
 
 .my-photos {
-  width: 55%;
+  width: 49%;
   margin: 0 auto;
+}
+
+/*...Map...*/
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+#states {
+  fill: #aaa;
+}
+
+#states .active {
+  fill: orange;
+}
+
+#state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+.slider-for {
+  margin: 0 auto;
+  width: 15%;
+}
+.slider-nav {
+  width: 75%;
+  margin: 0 auto;
+}
+.slider-nav img, .slider-for img {
+  width: 150px;
+  border: solid #E0CEBC 5px;
+  border-radius: 50%;
+  margin: 1%;
+}
+
+.slick-prev:before {
+  color: #4C4231;
+}
+.slick-next:before {
+  color: #4C4231;
 }

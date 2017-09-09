@@ -1,6 +1,11 @@
+/*....Overall Style....*/
 body, a {
   font-family: 'Montserrat', sans-serif;
   color: #4C4231;
+}
+
+a, .slick-dots li button {
+  cursor: crosshair;
 }
 
 h1 {
@@ -14,6 +19,7 @@ h1 {
   padding: inherit;
 }
 
+/*....Header & Nav....*/
 .header {
   background: url("../img/hawaii.jpg") no-repeat center center;
   background-position: top;
@@ -22,8 +28,8 @@ h1 {
   height: 600px;
 }
 
-.nav-link:hover {
-  border: solid #E0CEBC 2px;
+.header .nav-link:hover {
+  border: solid #EFE7DE 2px;
 }
 
 .jumbotron {
@@ -37,7 +43,7 @@ h1 {
 }
 
 .btn-info:hover {
-  border: solid #E0CEBC 2px;
+  border: solid #EFE7DE 2px;
   background: transparent;
 }
 
@@ -50,44 +56,32 @@ h1 {
   text-decoration: none;
 }
 
-.green {
-  color: #528A7E;
-}
-
-.Handlee {
-  font-family: 'Handlee', cursive;
-  font-size: 14px;
-  color: #8a5263;
-  font-style: italic;
-}
-
-strong {
-  color: #528A7E;
-}
-
 /*....About Me Section....*/
 #AboutMe {
   padding-top: 2%;
 }
-.social-media img {
-  height: 60px;
-  padding: 1%;
-}
-.social-media {
-  width: 20%;
-  margin: 0 auto;
-}
 
 .my-photos img {
   height: 150px;
-  border: solid #E0CEBC 5px;
+  border: solid #EFE7DE 5px;
   border-radius: 50%;
-  margin: 1%;
 }
 
 .my-photos {
-  width: 49%;
   margin: 0 auto;
+}
+
+/*....Skills....*/
+
+.skills-icon img {
+  height: 75px;
+  display: inline-block;
+
+}
+
+.skills-icon {
+  margin: 0 auto;
+  display: block;
 }
 
 /*...Map...*/
@@ -112,35 +106,56 @@ strong {
   stroke-linecap: round;
   pointer-events: none;
 }
-.slider-for {
-  margin: 0 auto;
-  width: 15%;
+
+/*....Projects...*/
+.slider-image {
+  margin-bottom: 5%;
 }
+.slider-for {
+  width: 50%;
+  margin: 0 auto;
+}
+.slider-for img {
+  width: 450px;
+  border: solid #F2F2F2 2px;
+}
+
 .slider-nav {
   width: 75%;
   margin: 0 auto;
 }
-.slider-nav img, .slider-for img {
-  width: 150px;
-  border: solid #E0CEBC 5px;
-  border-radius: 50%;
-  margin: 1%;
+
+.slider-nav img {
+  width: 200px;
+  cursor: crosshair;
 }
 
 .slick-prev:before {
   color: #4C4231;
+  cursor: crosshair;
 }
+
 .slick-next:before {
   color: #4C4231;
+  cursor: crosshair;
 }
 
-#Skills img {
-  width: 160px;
-  padding: 2%;
+/*....footer...*/
+#Contact {
+  background-color: #EFE7DE;
 }
 
+#Contact .row {
+  padding: 0;
+}
+.social-media img {
+  height: 30px;
+}
 
-#Skills .row {
-  width: 90%;
-  margin: 0 auto;
+.social-media a {
+  text-align: right;
+}
+
+.social-media {
+  margin-left: 75%;
 }

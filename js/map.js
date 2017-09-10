@@ -25,7 +25,7 @@ $(document).ready(function(){
   			.attr("height", height);
 
   // Append Div for tooltip to SVG
-  var div = d3.select("body")
+  var div = d3.select(".map")
   		    .append("div")
       		.attr("class", "tooltip")
       		.style("opacity", 0);

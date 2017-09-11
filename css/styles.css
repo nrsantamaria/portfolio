@@ -63,7 +63,7 @@ h1 {
 
 .my-photos img {
   height: 150px;
-  border: solid #EFE7DE 5px;
+  border: solid #B1AFBC 5px;
   border-radius: 50%;
 }
 
@@ -108,7 +108,7 @@ div.tooltip {
 .legend {
 	position:absolute;
 	left:800px;
-	top:1600px;
+	top:1300px;
 }
 
 /*....Projects...*/
@@ -144,6 +144,15 @@ div.tooltip {
   cursor: crosshair;
 }
 
+/*....experience...*/
+#Experience {
+  line-height: 6px;
+}
+.school-logo {
+  height: 105px;
+  float: left;
+  padding-right: 2%;
+}
 /*....footer...*/
 #Contact {
   background-color: #EFE7DE;

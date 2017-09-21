@@ -25,7 +25,7 @@ h1 {
   background-position: top;
   background-size: 100%;
   text-align: center;
-  height: 600px;
+  max-height: 600px;
 }
 
 .header .nav-link:hover {
@@ -34,7 +34,7 @@ h1 {
 
 .jumbotron {
   background: transparent;
-  margin-top:5%;
+  padding-top: 0;
 }
 
 .btn-info {
@@ -146,20 +146,25 @@ div.tooltip {
 
 /*....experience...*/
 #Experience {
-  line-height: 6px;
+  line-height: 16px;
+}
+
+#Experience .col-md-6 {
+  text-align: center;
 }
 .school-logo {
   height: 105px;
-  float: left;
   padding-right: 2%;
+  margin-bottom: 2%;
 }
 /*....footer...*/
 #Contact {
   background-color: #EFE7DE;
+  height: 75px;
 }
 
 #Contact .row {
-  padding: 0;
+  text-align: center;
 }
 .social-media img {
   height: 30px;

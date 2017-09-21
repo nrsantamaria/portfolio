@@ -115,7 +115,7 @@ div.tooltip {
 .slider-image {
   margin-bottom: 5%;
 }
-/*.slider-for {
+.slider-for {
   width: 50%;
   margin: 0 auto;
 }
@@ -127,12 +127,12 @@ div.tooltip {
 .slider-nav {
   width: 75%;
   margin: 0 auto;
-}*/
+}
 
-/*.slider-nav img {
+.slider-nav img {
   width: 200px;
   cursor: crosshair;
-}*/
+}
 
 .slick-prev:before {
   color: #4C4231;

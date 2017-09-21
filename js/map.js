@@ -1,6 +1,6 @@
 $(document).ready(function(){
   //Width and height of map
-  var width = window.screen.width;
+  var width = 960;
   var height = 500;
 
   // D3 Projection

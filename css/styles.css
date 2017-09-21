@@ -25,7 +25,7 @@ h1 {
   background-position: top;
   background-size: 100%;
   text-align: center;
-  max-height: 600px;
+  height: 600px;
 }
 
 .header .nav-link:hover {
@@ -115,7 +115,7 @@ div.tooltip {
 .slider-image {
   margin-bottom: 5%;
 }
-.slider-for {
+/*.slider-for {
   width: 50%;
   margin: 0 auto;
 }
@@ -127,12 +127,12 @@ div.tooltip {
 .slider-nav {
   width: 75%;
   margin: 0 auto;
-}
+}*/
 
-.slider-nav img {
+/*.slider-nav img {
   width: 200px;
   cursor: crosshair;
-}
+}*/
 
 .slick-prev:before {
   color: #4C4231;
@@ -176,4 +176,23 @@ div.tooltip {
 
 .social-media {
   margin-left: 75%;
+}
+
+
+/*...Media Queries.....*/
+
+@media (max-width: 320px) {
+  .header {
+    height: 300px;
+    color: #EFE7DE;
+  }
+  .my-photos img {
+    height: 90px;
+  }
+  #Skills .row {
+    margin: 0 auto;
+  }
+  .skills-icon img {
+    height: 83px;
+  }
 }

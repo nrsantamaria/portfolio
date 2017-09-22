@@ -56,6 +56,11 @@ h1 {
   text-decoration: none;
 }
 
+.nav-item {
+  margin: 2%;
+}
+
+
 /*....About Me Section....*/
 #AboutMe {
   padding-top: 2%;
@@ -181,7 +186,7 @@ div.tooltip {
 
 /*...Media Queries.....*/
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .header {
     height: 300px;
     color: #EFE7DE;
@@ -193,6 +198,21 @@ div.tooltip {
     margin: 0 auto;
   }
   .skills-icon img {
-    height: 83px;
+    height: 100px;
+  }
+  .slider-for img {
+    width: 125%;
+  }
+  .slider-nav {
+    width: 75%;
+  }
+  .slider-nav img {
+    width: 75%;
+  }
+  .social-media {
+    margin: 0;
+  }
+  #Contact {
+    height: 100px;
   }
 }

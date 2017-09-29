@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   // Define linear scale for output
   var color = d3.scale.linear()
-  			        .range(["rgb(213,222,217)","rgb(177,175,188)","rgb(81,70,103)"]);
+  			        .range(["rgb(217,198,182)","rgb(169,165,171)","rgb(196,148,140)"]);
 
   var legendText = ["States Lived", "States Visited", "Need to Visit"];
 

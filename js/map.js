@@ -100,7 +100,12 @@ $(document).ready(function(){
     var legend = d3.select(".map").append("svg")
           		.attr("class", "legend")
          			.attr("width", 140)
-        			.attr("height", 200)
+        			.attr("height", 75)
+              .style('position', 'absolute')
+              .style("top", '1075px')
+              .style('left', function() {
+  return window.screen.width/1.65 + "px";
+})
        				.selectAll("g")
        				.data(color.domain().slice().reverse())
        				.enter()

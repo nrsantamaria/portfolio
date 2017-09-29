@@ -1,11 +1,15 @@
 /*....Overall Style....*/
 body, a {
   font-family: 'Montserrat', sans-serif;
-  color: #4C4231;
+  color: #161016;
 }
 
 a, .slick-dots li button {
   cursor: crosshair;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 h1 {
@@ -22,14 +26,22 @@ h1 {
 /*....Header & Nav....*/
 .header {
   background: url("../img/hawaii.jpg") no-repeat center center;
-  background-position: top;
+  background-position: center;
   background-size: 100%;
   text-align: center;
   height: 100%;
+  color: #ffffe7;
 }
 
-.header .nav-link:hover {
-  border: solid #EFE7DE 2px;
+.navbar-nav .nav-link:hover {
+  transform: scale(1.25, 1);
+  font-weight: 900;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #655b6a;
 }
 
 .header .jumbotron {
@@ -37,24 +49,24 @@ h1 {
   padding-top: 0;
 }
 
+/*contact button */
 .btn-info {
   background: transparent;
   border: transparent;
 }
 
 .btn-info:hover {
-  border: solid #EFE7DE 2px;
+  transform: scale(1.25, 1);
   background: transparent;
 }
 
 .btn-info a {
-  color: #4C4231;
   font-size: 20px;
+  color: #ffffe7;
 }
-
 .btn-info a:hover {
-  color: #7D6252;
-  text-decoration: none;
+  font-weight: 900;
+  background: transparent;
 }
 
 .nav-item {

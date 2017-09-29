@@ -194,6 +194,10 @@ div.tooltip {
   margin: 0 auto;
 }
 
+.social-media img:hover {
+  transform: scale(1.25, 1);
+}
+
 
 /*...Media Queries.....*/
 

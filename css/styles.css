@@ -25,14 +25,14 @@ h1 {
   background-position: top;
   background-size: 100%;
   text-align: center;
-  height: 600px;
+  height: 100%;
 }
 
 .header .nav-link:hover {
   border: solid #EFE7DE 2px;
 }
 
-.jumbotron {
+.header .jumbotron {
   background: transparent;
   padding-top: 0;
 }
@@ -49,6 +49,7 @@ h1 {
 
 .btn-info a {
   color: #4C4231;
+  font-size: 20px;
 }
 
 .btn-info a:hover {
@@ -163,24 +164,29 @@ div.tooltip {
   margin-bottom: 2%;
 }
 /*....footer...*/
-#Contact {
-  background-color: #EFE7DE;
-  height: 75px;
+#Contact .jumbotron {
+  background: url("../img/samson_coast.jpg") no-repeat center center;
+  background-position: bottom;
+  background-size: 100%;
+  text-align: center;
+  height: 100%;
+  margin-bottom: 0;
 }
 
-#Contact .row {
-  text-align: center;
+#Contact button {
+  margin-bottom: 2%;
 }
+
 .social-media img {
   height: 30px;
 }
 
 .social-media a {
-  text-align: right;
+  text-align: center;
 }
 
 .social-media {
-  margin-left: 75%;
+  margin: 0 auto;
 }
 
 

@@ -27,10 +27,14 @@ h1 {
 .header {
   background: url("../img/hawaii.jpg") no-repeat center center;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   text-align: center;
   height: 100%;
   color: #ffffe7;
+}
+
+.navbar-nav {
+  padding-right: 0;
 }
 
 .navbar-nav .nav-link:hover {
@@ -39,8 +43,8 @@ h1 {
 }
 
 .navbar-nav .nav-link {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   color: #655b6a;
 }
 
@@ -69,14 +73,9 @@ h1 {
   background: transparent;
 }
 
-.nav-item {
-  margin: 2%;
-}
-
-
 /*....About Me Section....*/
-#AboutMe {
-  padding-top: 2%;
+.AboutMe p {
+  text-align: justify;
 }
 
 .my-photos img {
@@ -103,6 +102,9 @@ h1 {
 }
 
 /*...Map...*/
+.map {
+  margin: 0 auto;
+}
 /* On mouse hover, lighten state color */
 path:hover {
 	fill-opacity: .7;
@@ -172,7 +174,7 @@ div.tooltip {
 #Contact .jumbotron {
   background: url("../img/samson_coast.jpg") no-repeat center center;
   background-position: bottom;
-  background-size: 100%;
+  background-size: cover;
   text-align: center;
   height: 100%;
   margin-bottom: 0;
@@ -200,11 +202,13 @@ div.tooltip {
 
 
 /*...Media Queries.....*/
-
-@media (max-width: 375px) {
-  .header {
-    height: 300px;
-    color: #EFE7DE;
+@media (max-width: 349px) {
+  .header .jumbotron {
+    text-shadow: 2px 2px 3px #655b6a;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 0.50em;
+    padding-right: 0.50em;
   }
   .my-photos img {
     height: 90px;
@@ -213,7 +217,7 @@ div.tooltip {
     margin: 0 auto;
   }
   .skills-icon img {
-    height: 100px;
+    height: 38px;
   }
   .slider-for img {
     width: 125%;
@@ -227,7 +231,31 @@ div.tooltip {
   .social-media {
     margin: 0;
   }
-  #Contact {
-    height: 100px;
+}
+@media (max-width: 375px) and (min-width: 350px) {
+  .navbar-nav .nav-link {
+    padding-left: 0.50em;
+    padding-right: 0.50em;
+  }
+  .my-photos img {
+    height: 90px;
+  }
+  #Skills .row {
+    margin: 0 auto;
+  }
+  .skills-icon img {
+    height: 45px;
+  }
+  .slider-for img {
+    width: 125%;
+  }
+  .slider-nav {
+    width: 75%;
+  }
+  .slider-nav img {
+    width: 75%;
+  }
+  .social-media {
+    margin: 0;
   }
 }

@@ -30,7 +30,7 @@ h1 {
   background-size: cover;
   text-align: center;
   height: 100%;
-  color: #ffffe7;
+  color: #E3D1D5;
 }
 
 .navbar-nav {
@@ -51,6 +51,7 @@ h1 {
 .header .jumbotron {
   background: transparent;
   padding-top: 0;
+  text-shadow: 2px 2px 3px #655b6a;
 }
 
 /*contact button */
@@ -66,7 +67,8 @@ h1 {
 
 .btn-info a {
   font-size: 20px;
-  color: #ffffe7;
+  color: #E3D1D5;
+  text-shadow: 2px 2px 3px #655b6a;
 }
 .btn-info a:hover {
   font-weight: 900;
@@ -219,8 +221,11 @@ div.tooltip {
   .skills-icon img {
     height: 38px;
   }
+  .slider-for {
+    width: 90%;
+  }
   .slider-for img {
-    width: 125%;
+    width: 100%;
   }
   .slider-nav {
     width: 75%;
@@ -233,6 +238,9 @@ div.tooltip {
   }
 }
 @media (max-width: 375px) and (min-width: 350px) {
+  .header .jumbotron {
+    text-shadow: 2px 2px 3px #655b6a;
+  }
   .navbar-nav .nav-link {
     padding-left: 0.50em;
     padding-right: 0.50em;
@@ -246,8 +254,11 @@ div.tooltip {
   .skills-icon img {
     height: 45px;
   }
+  .slider-for {
+    width: 90%;
+  }
   .slider-for img {
-    width: 125%;
+    width: 100%;
   }
   .slider-nav {
     width: 75%;

@@ -39,6 +39,7 @@ h1 {
 
 .navbar-nav .nav-link:hover {
   transform: scale(1.25, 1);
+  text-shadow: 1px 1px 5px #ffffe7;
   font-weight: 900;
 }
 
@@ -62,6 +63,7 @@ h1 {
 
 .btn-info:hover {
   transform: scale(1.25, 1);
+  text-shadow: rgb(241, 242, 242) 2px 2px 3px;
   background: transparent;
 }
 
@@ -127,15 +129,12 @@ div.tooltip {
 }
 
 /*....Projects...*/
-.slider-image {
-  margin-bottom: 5%;
-}
 .slider-for {
   width: 50%;
   margin: 0 auto;
 }
 .slider-for img {
-  width: 450px;
+  width:100%;
   border: solid #F2F2F2 2px;
 }
 
@@ -188,6 +187,8 @@ div.tooltip {
 
 .social-media img {
   height: 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #655b6a;
 }
 
 .social-media a {
@@ -199,7 +200,8 @@ div.tooltip {
 }
 
 .social-media img:hover {
-  transform: scale(1.25, 1);
+  transform: scale(1, 1.25);
+  box-shadow: rgb(241, 242, 242) 0 0 5px;
 }
 
 

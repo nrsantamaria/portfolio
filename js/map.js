@@ -20,8 +20,8 @@ $(document).ready(function(){
 
   // D3 Projection
   var projection = d3.geo.albersUsa()
-  				               .translate([windowWidth/2, windowHeight/2])// translate to center of screen
-  				               .scale([windowWidth *(75/100)]);// scale things down so see entire US
+  				               .translate([windowWidth/2, height/2])// translate to center of screen
+  				               .scale([windowWidth *(90/100)]);// scale things down so see entire US
 
   // Define path generator
   var path = d3.geo.path()// path generator that will convert GeoJSON to SVG paths
@@ -107,18 +107,17 @@ $(document).ready(function(){
     });
 
     // Modified Legend Code from Mike Bostock: http://bl.ocks.org/mbostock/3888852
-    var legend = d3.select(".map").append("svg")
+    var legend = d3.select(".map-legend").append("svg")
           		.attr("class", "legend")
          			.attr("width", 140)
         			.attr("height", 75)
-              .style('position', 'absolute')
-              .style('margin-top', '25%')
+              .style('margin-left', "40%")
               // .style("top", function() {
               //   return window.innerHeight - 25 + "px";
               // })
-              .style('left', function() {
-                return window.innerWidth * 0.75 + "px";
-              })
+              // .style('left', function() {
+              //   return window.innerWidth * 0.3 + "px";
+              // })
        				.selectAll("g")
        				.data(color.domain().slice().reverse())
        				.enter()

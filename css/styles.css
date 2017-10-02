@@ -97,7 +97,9 @@ h1 {
 
 /*....Skills....*/
 #Skills {
-  background-color: #E4D7CD;
+  /*background-color: #E4D7CD;*/
+  background: url("../img/background.png") center center;
+  background: cover;
   padding-bottom: 50px;
 }
 
@@ -134,22 +136,21 @@ div.tooltip {
 }
 
 /*....Projects...*/
+
 .slider-for {
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
 }
 .slider-for img {
-  width:100%;
+  width: 100%;
   border: solid #F2F2F2 2px;
 }
-
 .slider-nav {
   width: 75%;
   margin: 0 auto;
 }
-
 .slider-nav img {
-  width: 200px;
+  width: 75%;
   cursor: crosshair;
 }
 
@@ -228,18 +229,6 @@ div.tooltip {
   .skills-icon img {
     height: 38px;
   }
-  .slider-for {
-    width: 90%;
-  }
-  .slider-for img {
-    width: 100%;
-  }
-  .slider-nav {
-    width: 75%;
-  }
-  .slider-nav img {
-    width: 75%;
-  }
   .social-media {
     margin: 0;
   }
@@ -261,19 +250,15 @@ div.tooltip {
   .skills-icon img {
     height: 45px;
   }
-  .slider-for {
-    width: 90%;
-  }
-  .slider-for img {
-    width: 100%;
-  }
-  .slider-nav {
-    width: 75%;
-  }
-  .slider-nav img {
-    width: 75%;
-  }
   .social-media {
     margin: 0;
+  }
+}
+@media (max-width: 425px) and (min-width: 378px) {
+  .my-photos img {
+    height: 90px;
+  }
+  .skills-icon img {
+    height: 60px;
   }
 }

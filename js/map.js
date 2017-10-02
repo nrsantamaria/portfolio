@@ -8,7 +8,7 @@ $(document).ready(function(){
   if (windowWidth >=950) {
     var width = 960;
   } else {
-    var width = windowWidth * (95/100);
+    var width = windowWidth * (90/100);
   };
 
   if (windowHeight >=420) {
@@ -21,7 +21,7 @@ $(document).ready(function(){
   // D3 Projection
   var projection = d3.geo.albersUsa()
   				               .translate([windowWidth/2, height/2])// translate to center of screen
-  				               .scale([windowWidth *(90/100)]);// scale things down so see entire US
+  				               .scale([windowWidth *(70/100)]);// scale things down so see entire US
 
   // Define path generator
   var path = d3.geo.path()// path generator that will convert GeoJSON to SVG paths

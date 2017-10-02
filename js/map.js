@@ -1,17 +1,27 @@
 $(document).ready(function(){
   //Width and height of map
-  if (window.screen.width >=376) {
+  var windowWidth = window.innerWidth;
+  var windowHeight = window.innerHeight;
+  var width;
+  var height;
+
+  if (windowWidth >=950) {
     var width = 960;
   } else {
-    var width = window.screen.width;
+    var width = windowWidth * (95/100);
   };
-  console.log(width);
-  var height = 500;
+
+  if (windowHeight >=420) {
+    var height = 500;
+  } else {
+    var height = windowHeight;
+  };
+
 
   // D3 Projection
   var projection = d3.geo.albersUsa()
-  				               .translate([width/2, height/2])// translate to center of screen
-  				               .scale([1000]);// scale things down so see entire US
+  				               .translate([windowWidth/2, windowHeight/2])// translate to center of screen
+  				               .scale([windowWidth *(75/100)]);// scale things down so see entire US
 
   // Define path generator
   var path = d3.geo.path()// path generator that will convert GeoJSON to SVG paths
@@ -102,10 +112,13 @@ $(document).ready(function(){
          			.attr("width", 140)
         			.attr("height", 75)
               .style('position', 'absolute')
-              .style("top", '1075px')
+              .style('margin-top', '25%')
+              // .style("top", function() {
+              //   return window.innerHeight - 25 + "px";
+              // })
               .style('left', function() {
-  return window.screen.width/1.65 + "px";
-})
+                return window.innerWidth * 0.75 + "px";
+              })
        				.selectAll("g")
        				.data(color.domain().slice().reverse())
        				.enter()

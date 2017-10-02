@@ -22,6 +22,9 @@ h1 {
 .row {
   padding: inherit;
 }
+.title {
+  text-shadow: 1px 1px 2px #655b6a;
+}
 
 /*....Header & Nav....*/
 .header {
@@ -30,7 +33,7 @@ h1 {
   background-size: cover;
   text-align: center;
   height: 100%;
-  color: #E3D1D5;
+  color: #EDEEE9;
 }
 
 .navbar-nav {
@@ -39,7 +42,7 @@ h1 {
 
 .navbar-nav .nav-link:hover {
   transform: scale(1.25, 1);
-  text-shadow: 1px 1px 5px #ffffe7;
+  text-shadow: 0 0 16px #EDEEE9;
   font-weight: 900;
 }
 
@@ -68,8 +71,8 @@ h1 {
 }
 
 .btn-info a {
-  font-size: 20px;
-  color: #E3D1D5;
+  font-size: 24px;
+  color: #EDEEE9;
   text-shadow: 2px 2px 3px #655b6a;
 }
 .btn-info a:hover {
@@ -84,7 +87,7 @@ h1 {
 
 .my-photos img {
   height: 150px;
-  border: solid #161016 5px;
+  border: solid #161016 2px;
   border-radius: 50%;
 }
 
@@ -93,6 +96,10 @@ h1 {
 }
 
 /*....Skills....*/
+#Skills {
+  background-color: #EDEEE9;
+  padding-bottom: 5%;
+}
 
 .skills-icon img {
   height: 75px;
@@ -106,9 +113,7 @@ h1 {
 }
 
 /*...Map...*/
-.map {
-  margin: 0 auto;
-}
+
 /* On mouse hover, lighten state color */
 path:hover {
 	fill-opacity: .7;

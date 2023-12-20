@@ -3,262 +3,28 @@ body, a {
   font-family: 'Montserrat', sans-serif;
   color: #161016;
 }
-
-a, .slick-dots li button {
-  cursor: crosshair;
+h1, h2 {
+  color: #183D63;
 }
-
-a:hover {
-  text-decoration: none;
+h4, h5 {
+  font-weight: bold;
 }
-
-h1 {
-  text-align: center;
-  margin: 20px 0 20px 0;
+.wrapper {
+  border: 1px solid rgba(0,0,0,.025);
 }
-.container {
-  padding-top: 2%;
+hr {
+  color: rgba(0,0,0,.1);
 }
-.row {
-  padding: inherit;
-}
-.title {
-  text-shadow: 1px 1px 2px #655b6a;
-}
-
-/*....Header & Nav....*/
-.header {
-  background: url("../img/hawaii.jpg") no-repeat center center;
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  height: 100%;
-  color: #EDEEE9;
-}
-
-.navbar-nav {
-  padding-right: 0;
-}
-
-.navbar-nav .nav-link:hover {
-  transform: scale(1.25, 1);
-  text-shadow: 0 0 16px #EDEEE9;
-  font-weight: 900;
-}
-
-.navbar-nav .nav-link {
-  padding-left: 1.25em;
-  padding-right: 1.25em;
-  color: #655b6a;
-}
-
-.header .jumbotron {
-  background: transparent;
-  padding-top: 0;
-  text-shadow: 2px 2px 3px #655b6a;
-}
-
-/*contact button */
-.btn-info {
-  background: transparent;
-  border: transparent;
-}
-
-.btn-info:hover {
-  transform: scale(1.25, 1);
-  text-shadow: rgb(241, 242, 242) 2px 2px 3px;
-  background: transparent;
-}
-
-.btn-info a {
-  font-size: 24px;
-  color: #EDEEE9;
-  text-shadow: 2px 2px 3px #655b6a;
-}
-.btn-info a:hover {
-  font-weight: 900;
-  background: transparent;
-}
-
-/*....About Me Section....*/
-.AboutMe p {
-  text-align: justify;
-}
-
-.my-photos img {
+.image {
   height: 150px;
-  border: solid #161016 2px;
   border-radius: 50%;
 }
 
-.my-photos {
-  margin: 0 auto;
+.objective {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-/*....Skills....*/
-#Skills {
-  /*background-color: #E4D7CD;*/
-  background: url("../img/background.png") center center;
-  background: cover;
-  padding-bottom: 50px;
-}
-
-.skills-icon img {
-  height: 75px;
-  display: inline-block;
-
-}
-
-.skills-icon {
-  margin: 0 auto;
-  display: block;
-}
-
-/*...Map...*/
-
-/* On mouse hover, lighten state color */
-path:hover {
-	fill-opacity: .7;
-}
-
-/* Style for Custom Tooltip */
-div.tooltip {
- 	position: absolute;
-	text-align: center;
-	width: 60px;
-	height: 28px;
-	padding: 2px;
-	font: 12px sans-serif;
-	background: white;
-	border: 0px;
-	border-radius: 8px;
-	pointer-events: none;
-}
-
-/*....Projects...*/
-
-.slider-for {
-  width: 90%;
-  margin: 0 auto;
-}
-.slider-for img {
-  width: 100%;
-  border: solid #F2F2F2 2px;
-}
-.slider-nav {
-  width: 75%;
-  margin: 0 auto;
-}
-.slider-nav img {
-  width: 75%;
-  cursor: crosshair;
-}
-
-.slick-prev:before {
-  color: #4C4231;
-  cursor: crosshair;
-}
-
-.slick-next:before {
-  color: #4C4231;
-  cursor: crosshair;
-}
-
-/*....experience...*/
-#Experience {
-  line-height: 16px;
-}
-
-#Experience .col-md-6 {
-  text-align: center;
-}
-.school-logo {
-  height: 105px;
-  padding-right: 2%;
-  margin-bottom: 2%;
-}
-/*....footer...*/
-#Contact .jumbotron {
-  background: url("../img/samson_coast.jpg") no-repeat center center;
-  background-position: bottom;
-  background-size: cover;
-  text-align: center;
-  height: 100%;
-  margin-bottom: 0;
-}
-
-#Contact button {
-  margin-bottom: 2%;
-}
-
-.social-media img {
-  height: 30px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 3px #655b6a;
-}
-
-.social-media a {
-  text-align: center;
-}
-
-.social-media {
-  margin: 0 auto;
-}
-
-.social-media img:hover {
-  transform: scale(1, 1.25);
-  box-shadow: rgb(241, 242, 242) 0 0 5px;
-}
-
-
-/*...Media Queries.....*/
-@media (max-width: 349px) {
-  .header .jumbotron {
-    text-shadow: 2px 2px 3px #655b6a;
-  }
-  .navbar-nav .nav-link {
-    padding-left: 0.50em;
-    padding-right: 0.50em;
-  }
-  .my-photos img {
-    height: 90px;
-  }
-  #Skills .row {
-    margin: 0 auto;
-  }
-  .skills-icon img {
-    height: 38px;
-  }
-  .social-media {
-    margin: 0;
-  }
-}
-@media (max-width: 375px) and (min-width: 350px) {
-  .header .jumbotron {
-    text-shadow: 2px 2px 3px #655b6a;
-  }
-  .navbar-nav .nav-link {
-    padding-left: 0.50em;
-    padding-right: 0.50em;
-  }
-  .my-photos img {
-    height: 90px;
-  }
-  #Skills .row {
-    margin: 0 auto;
-  }
-  .skills-icon img {
-    height: 45px;
-  }
-  .social-media {
-    margin: 0;
-  }
-}
-@media (max-width: 425px) and (min-width: 378px) {
-  .my-photos img {
-    height: 90px;
-  }
-  .skills-icon img {
-    height: 60px;
-  }
+.contact, .other-details {
+  border-left: 1px solid rgba(0,0,0,.1);
 }

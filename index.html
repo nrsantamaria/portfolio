@@ -4,179 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="slick-1.6.0/slick/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/timeline.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick-1.6.0/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Handlee|Montserrat" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title>Nicole Santamaria Portfolio</title>
+    <title>Nicole Santamaria</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <nav class="navbar navbar-nav navbar-default" role="navigation">
-          <ul class="nav nav-pills justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="#AboutMe">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="jumbotron">
-        <h1>Hello, I'm Nicole Santamaria</h1>
-        <p>I like to build beautiful and interactive websites.</p>
-        <button type="button" name="button" class="btn btn-info"><a href="mailto:NicoleRSantamaria@gmail.com">Contact Me</a></button>
-      </div>
-    </div>
-    <div class="AboutMe">
-      <div class="container">
-        <div class="row">
-          <div class="my-photos">
-            <img src="img/nicky-laugh.jpg">
-            <img src="img/photo.jpg">
-            <img src="img/nicky-small.jpg">
+    <div class="container">
+      <div class="wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+        <div class="row g-0 header">
+          <div class="col-2 col-md-2"><img src="img/nicky-small.jpg" class="image"/></div>
+          <div class="col-sm-6 col-md-6">
+            <div class="d-flex flex-column align-content-center flex-wrap">
+              <h1>NICOLE SANTAMARIA</h1>
+              <h5>Senior Software Engineer</h5>
+              <div class=""><p>I am looking for a position as a Senior Software Engineer where I can advance my technical skills within a diverse technology stack and utilize my project management background to be an advocate for team growth.</p></div>
+            </div>
+          </div>
+          <div class="col-4 col-md-4 contact ps-2">
+            <p><i class="bi bi-telephone"></i> (808) 741-5825</p>
+            <p><i class="bi bi-envelope"></i> <a href="mailto:NicoleRSantamaria@gmail.com">NicoleRSantamaria@gmail.com</a></p>
+            <p><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/nicolersantamaria/" target="_blank">linkedin.com/in/nicolersantamaria</a></p>
+            <p><i class="bi bi-geo-alt-fill"></i> Portland, OR</p>
           </div>
         </div>
-        <h1 class="title">About</h1>
-        <div class="row">
-          <p>Born in Southern California, raised on the island of Oahu, went to college in San Francisco, living in Oregon. I like to roam...</p>
-        </div>
-      </div>
-    </div>
-    <div class="map"></div>
-    <div class="map-legend"></div>
-    <div class="AboutMe">
-      <div class="container">
-        <div class="row">
-          <p>I am always hungry to grow and learn new things, so I took the risk to make the career switch from a project coordinator at a conference planning company to web developer. While working as a project coordinator and collaborating with our web developer, I gained experience creating web based products, and serving the clients that used them. I effectively communicated with clients to help them translate loose ideas into content our web developer could visualize. It was incredibly fulfilling, working through bugs and developing unique innovative planning systems my previous employer continues to use. Wanting to expand my technical skills beyond the planning phase, I started at Epicodus in their Ruby, JavaScript and Rails track.</p>
-          <p>Having dedicated six months of full time coding, I am confident in my ability to develop Ruby on Rails products as well as work with JavaScript on the front-end. Additionally, the most important skill I have gained from this program is the ability to take something completely foreign and in a short time become proficient in it.</p>
-        </div>
-      </div>
-    </div>
-    <div id="Skills">
-      <div class="container">
-        <h1 class="title">Skills</h1>
-        <div class="row">
-          <div class="skills-icon">
-            <img src="img/angular.png">
-            <img src="img/atom.png">
-            <img src="img/codekiticon.png">
-            <img src="img/d3.png">
-            <img src="img/git.png">
-            <img src="img/jquery.png">
-          </div>
-        </div>
-        <div class="row">
-          <div class="skills-icon">
-            <img src="img/js-icon.png">
-            <img src="img/node.png">
-            <img src="img/rails.png">
-            <img src="img/ruby.png">
-            <img src="img/sass.png">
-            <img src="img/sql.png">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="Projects" class="container">
-      <h1 class="title">Projects</h1>
-      <div class="container">
-        <div class="slider-image">
-          <div class="slider-for">
-            <div>
-              <a href="https://adaa-tournament.firebaseapp.com/" target="_blank"><img src="img/adaa-project.png"></a><br>
-              <div class="description">
-                <h5><a href="https://github.com/nrsantamaria/adaa-tournament" target="_blank">adaa-tournament</a></h5>
-                <p>An app to track the teams competing in <a href="http://www.imdb.com/title/tt0364725/" target="_blank">"DodgeBall: A True Underdog Story"</a>. Includes user authentication and custom admin capabilities. Utilizes Node.js (with NPM), AngularCLI, and Firebase.</p>
-              </div>
+        <hr />
+        <div class="row g-0 main-content">
+          <div class="col-sm-6 col-md-8 mt-5 pe-2">
+            <h2>EXPERIENCE</h2>
+            <div class="mt-4"><h4>Evanta, a Gartner Company, Portland, OR</h4></div>
+            <div class="d-flex flex-row justify-content-between">
+              <h5>Senior Software Engineer</h5>
+              <p><i>Oct 2021—Present</i></p>
             </div>
             <div>
-              <a href="https://stunning-lassen-volcanic-17669.herokuapp.com/" target="_blank"><img src="img/marios-project.png"></a><br>
-              <div class="description">
-                <h5><a href="https://github.com/nrsantamaria/marios" target="_blank">Marios</a></h5>
-                <p>An app to showcase products from Marios. Products and reviews of products can be added. Includes user authentication and custom admin capabilities. Utilizes Ruby, Rails and PostgreSQL.</p>
-              </div>
+              <ul>
+                <li>Lead architecture and development of React project on Vite.js. Work with designers to simplify components for faster development and consistent user experience.</li>
+                <li>Lead architecture and development of React Native mobile app using Expo to modernize and streamline development process of Android and iOS apps.</li>
+                <li>Implement third-party API integration within a Rails API, including Cronofy, WebEx and Eloqua.</li>
+                <li>Assist in the DevOps process through implementation of Kubernetes files, including applications, jobs and cron jobs.</li>
+                <li>Develop and present training workshops demonstrating React and React Native. Provide support and mentorship to team members.</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-row mt-4 justify-content-between">
+              <h5>Software Engineer</h5>
+              <p><i>Mar 2019—Oct 2021</i></p>
             </div>
             <div>
-              <a href="https://meal-thyme.herokuapp.com/" target="_blank"><img src="img/meal-thyme-project.png"></a><br>
-              <div class="description">
-                <h5><a href="https://github.com/nrsantamaria/meal-thyme" target="_blank">Meal Thyme</a></h5>
-                <p>A meal planning app that includes user authentication and custom admin capabilities. Utilizes Ruby, Rails, Ajax and PostgreSQL. Additionally some specialty gems including DeviseMailer, SimpleCalendar and ContactForm.</p>
-              </div>
+              <ul>
+                <li>Developed code fixes and enhancements for front-end projects utilizing Backbone.js as well as RESTful API in Rails. Ensure code quality through code reviews.</li>
+                <li>Provided documentation to minimize customer impact and improve future processes.</li>
+                <li>Collaborated during sprint planning with suggestions on best practices to improve user experience.</li>
+              </ul>
+            </div>
+            <div class="d-flex flex-row mt-4 justify-content-between">
+              <h5>Test Technician</h5>
+              <p><i>Aug 2017—Mar 2019</i></p>
             </div>
             <div>
-              <a href="https://six-degrees-nic-cage.herokuapp.com/" target="_blank"><img src="img/six-degrees-project.png"></a><br>
-              <div class="description">
-                <h5><a href="https://github.com/nrsantamaria/six-degrees" target="_blank">Six Degrees</a></h5>
-                <p>This app utilizes ActiveRecord to track movies and actors through a many-to-many relationship. Users will be able to see the relationship between two actors. Utilizes Ruby, Sinatra and PostgreSQL. The system was loaded using a movie database API.</p>
+              <ul>
+                <li>Increased test coverage from 30% to 67% for Rails API through RSpec contribution as well as advocating for including test coverage with latest features.</li>
+                <li>Completed manual regression testing and debugging of mobile apps which led to significant improvement in the onsite experience for conference attendees.</li>
+                <li>Developed training sessions for fellow test technicians in various testing tools, including RSpec, Karma, and Cypress.io.</li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h4>Conference Solutions, Portland, OR</h4>
+              <div class="d-flex flex-row justify-content-between"><h5>Registration Manager & Data Coordinator | Project Coordinator</h5><p><i>Jan 2012—Feb 2017</i></p></div>
+            </div>
+            <div>
+              <ul>
+                <li>Built and manually tested program content submission sites, managed submission processes and developed online review systems in collaboration with software vendors and web developers.</li>
+                <li>Compiled, edited, managed production and distribution of printed and digital materials, including website, mobile app, and mass distributed emails.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 other-details mt-5">
+            <div class="ms-5">
+              <h2>EDUCATION & CERTIFICATION</h2>
+              <div class="mt-2"><h5>Epicodus, Portland, OR	Sept 2017</h5></div>
+              <p>Ruby, Ruby on Rails, JavaScript</p>
+              <div class="mt-2"><h5>University of San Francisco (USF), San Francisco, CA	May 2011</h5></div>
+              <p>B.S., Business Administration, Hospitality Industry Management, Cum Laude </p>
+              <h2 class="mt-3">TECHNICAL PROFICIENCIES</h2>
+              <div class="mt-3"><h5>Programming Languages, Frameworks & Libraries</h5></div>
+              <div class="row mt-3">
+              <div class="col-6">
+                <p>AngularJS</p>
+                <p>Backbone.js</p>
+                <p>CSS/SASS</p>
+                <p>JavaScript</p>
+                <p>jQuery</p>
+              </div>
+              <div class="col-6">
+                <p>Ruby/Ruby on Rails</p>
+                <p>PostgreSQL</p>
+                <p>React</p>
+                <p>React Native</p>
+              </div>
+              </div>
+              <div class="mt-3"><h4>Project Management & Version Control Tools</h4></div>
+              <div class="row mt-3">
+              <div class="col-6">
+                <p>BitBucket</p>
+                <p>GitHub</p>
+                <p>Docker</p>
+                <p>Heroku</p>
+                <p>Jenkins</p>
+              </div>
+              <div class="col-6">
+                <p>AWS</p>
+                <p>Postman</p>
+                <p>Pivotal Tracker</p>
+                <p>Jira</p>
+                <p>Confluence</p>
               </div>
             </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="slider-nav">
-        <div><img src="img/adaa-project.png"></div>
-        <div><img src="img/marios-project.png"></div>
-        <div><img src="img/meal-thyme-project.png"></div>
-        <div><img src="img/six-degrees-project.png"></div>
-      </div>
-    </div>
-    <div id="Experience">
-      <div class="container">
-        <h1 class="title">Experience</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="work">
-              <h2>Work</h2>
-              <a href="https://www.sq1.com/" target="_blank"><img class="school-logo" src=img/sq1-logo.png alt="sq1 logo"></a>
-              <h4>Sq1</h4>
-              <p>Development Intern</p>
-              <p><em>August 2017 - September 2017</em></p>
-              <a href="https://www.conferencesolutionsinc.com/" target="_blank"><img class="school-logo" src=img/cs-logo.png alt="conference solutions logo"></a>
-              <h4>Conference Solutions</h4>
-              <p>Project Coordinator</p>
-              <p><em>May 2015 - February 2017</em></p>
-              <p>Registration & Data Coordinator</p>
-              <p><em>January 2012 - May 2015</em></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="education">
-              <h2>Education</h2>
-              <a href="https://www.epicodus.com/" target="_blank"><img class="school-logo" src=img/epicodus-ico.png alt="epicodus logo"></a>
-              <h4>Epicodus</h4>
-              <p>Ruby and Rails Tracks</p>
-              <p><em>2017</em></p>
-              <a href="https://www.usfca.edu/" target="_blank"><img class="school-logo" src=img/USF.png alt="USF logo"></a>
-              <h4>University of San Francisco</h4>
-              <p>B.S., Business Administration, Hospitality Industry Management</p>
-              <p><em>2011</em></p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <!-- <div class="timeline"></div> -->
-    <div id="Contact">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <button type="button" name="button" class="btn btn-info"><a href="mailto:NicoleRSantamaria@gmail.com">Contact Me</a></button>
-          <div class="social-media">
-            <a href="https://github.com/nrsantamaria" target="_blank"><img src="img/github.png" alt="github"></a>
-            <a href="https://twitter.com/nicky_s808" target="_blank"><img src="img/twitter-logo.png" alt="twitter"></a>
-            <a href="https://www.linkedin.com/in/nicolersantamaria/" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-          </div>
-        </div>
+        <hr />
       </div>
     </div>
   </body>

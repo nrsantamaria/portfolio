@@ -7,7 +7,7 @@
 
 ## Description
 
-_This webpage is a portfolio for Nicole Santamaria. In includes some basic information about Nicole (hobbies, interests, etc.) along with information regarding projects she is working on at Epicodus. Nicole's work experience and education are listed near the bottom of the page._
+_This webpage is a portfolio for Nicole Santamaria._
 
 ## Setup/Installation Requirements
 
